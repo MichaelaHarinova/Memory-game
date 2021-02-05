@@ -1,0 +1,100 @@
+td, tr {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e1dbe4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+button:hover, td:hover {
+    box-shadow: 0 1px 10px 1px #e1dbe4;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+button {
+    border: 2px solid #e1dbe4;
+    border-radius: 10px;
+    width: 150px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e6edef;
+    background:linear-gradient(rgba(119, 119, 119,0.4), rgb(36 36 63));
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 4px 0 #f6fefe;
+    outline: none;
+    float: right;
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("img/stars.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#container {
+    margin: auto;
+    font-size: 30px;
+    width: 10%;
+    margin-top: 30px;
+}
+
+#tries {
+    width: 40%;
+    margin-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: flex;
+}
+a{
+    color: #bcbcef;
+}
+#bu{
+    width:40%;
+}
+#counter{
+    margin: auto;
+    border: 2px solid #3e3d3d;
+    border-radius: 10px;
+    width: 150px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e6edef;
+    display: block;
+    outline: none;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    background: linear-gradient(rgba(0 ,0 ,0 ,0.6), rgb(36 36 63));
+
+}
+#link{
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
